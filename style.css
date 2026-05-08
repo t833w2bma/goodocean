@@ -7,9 +7,8 @@ Version: 1.0
 Author: S.Asuwa
 */
 
-.js-fadeinup-trigger,
-.js-fadein-trigger {
-  opacity: 0;
+.js-fadeinup-trigger {
+  /* opacity: 0; */
 }
 
 body {
@@ -19,7 +18,7 @@ body {
   color: #000;
   line-height: 1.875;
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   body {
     font-size: 0.875rem;
   }
@@ -135,9 +134,7 @@ textarea {
 .gnav-list li:not(:last-of-type) {
   margin-right: 68px;
 }
-.gnav-list li:first-of-type {
-  /* display: none; */
-}
+
 .gnav-list a {
   display: block;
 }
