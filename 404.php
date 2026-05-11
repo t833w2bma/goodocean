@@ -1,3 +1,6 @@
+<?php  //テスト的な更新
+echo 'dvelop';
+?>
 <?php get_header(); ?>
   <main class="main">
     <h1 data-title="Not Found" class="page-title">ページが見つかりません</h1>
